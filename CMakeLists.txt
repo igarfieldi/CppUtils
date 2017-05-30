@@ -13,6 +13,7 @@ if("${PROJECT_SOURCE_DIR}" STREQUAL "${PROJECT_BINARY_DIR}")
 endif("${PROJECT_SOURCE_DIR}" STREQUAL "${PROJECT_BINARY_DIR}")
 
 ADD_EXECUTABLE(CppUtils
+	src/iterator/generate.hpp
 	src/random/rng.hpp
 	src/time/timer.hpp
 	src/main.cpp
