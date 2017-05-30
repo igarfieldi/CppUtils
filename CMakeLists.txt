@@ -12,7 +12,8 @@ if("${PROJECT_SOURCE_DIR}" STREQUAL "${PROJECT_BINARY_DIR}")
    message(WARNING "In-source building is discouraged!")
 endif("${PROJECT_SOURCE_DIR}" STREQUAL "${PROJECT_BINARY_DIR}")
 
-ADD_EXECUTABLE(PathTracer
-	src/rng.hpp
+ADD_EXECUTABLE(CppUtils
+	src/random/rng.hpp
+	src/time/timer.hpp
 	src/main.cpp
 )
